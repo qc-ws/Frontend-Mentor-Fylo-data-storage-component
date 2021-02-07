@@ -147,13 +147,13 @@ body {
   .page-wrapper {
     width: 100%;
     flex-direction: column;
-    grid-row-gap: 25px;
     margin: 0 5%;
   }
 
   /* Container 1 */
   .page-wrapper>.container-1 {
     width: 100%;
+    margin-bottom: 25px;
   }
 
   /* Container 2 */
@@ -185,13 +185,10 @@ body {
     background-size: 100% 50vh;
   }
 
-  .page-wrapper {
-    grid-column-gap: 25px;
-  }
-
   /* Container 1 */
   .page-wrapper>.container-1 {
     width: 380px;
+    margin-right: 25px;
   }
 
   /* Container 2 */
